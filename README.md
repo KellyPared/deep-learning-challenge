@@ -31,10 +31,14 @@ For the neural network model, 30 neurons were selected for the first layer, foll
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
 With the first model I wasa able to get a 73% accuracy. However, I was not able to achieve the target model performance of 75% accuracy. 
 
-To increase the model performance, I tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
+To increase the model performance, I tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate. However, I still had a loss of 55.6% and and accuracy of 72.4% 
+
 <img width="557" alt="Screenshot 2023-05-07 at 9 37 50 AM" src="https://user-images.githubusercontent.com/40581033/236680867-87867207-4561-450d-8c36-a3f1409e2710.png">
 
+268/268 - 0s - loss: 0.5567 - accuracy: 0.7248 - 251ms/epoch - 936us/step
+Loss: 0.5567113757133484, Accuracy: 0.724781334400177
 
+I continued to modify my model, but each time managed to get a lower accuract and higher loss.
 <img width="505" alt="Screenshot 2023-05-07 at 9 32 47 AM" src="https://user-images.githubusercontent.com/40581033/236680623-57b5541d-7dd4-4af7-a95a-a4e8c872b84a.png">
 
 I attempted 5 new models all resulting in lower accuracy rates. In so,me cases my training accuracy was high but validation accuracy was low, it probably meant that my model was overfitting to the training data and was not generalizing well to new data.
