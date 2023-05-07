@@ -25,26 +25,7 @@ In the 'INCOME AMT' column, 25% ofthe data is NaN.  This
 
 #### Original Model
 
-#hidden nodes for each layer pick a random number
-units_layer1 = 30
-units_layer2 = 20
-
-#the more layers - 
-# First hidden layer
-model.add(Dense(units=units_layer1, 
-                                activation='relu', 
-                                input_dim=number_input_features))
-
-# Second hidden layer
-model.add(Dense(units=units_layer2, 
-                                activation='relu', 
-                                input_dim=number_input_features))
-
-# Output layer
-model.add(Dense(units=1, activation='sigmoid'))
-
-# Check the structure of the model
-model.summary()
+<img width="538" alt="Screenshot 2023-05-07 at 9 37 08 AM" src="https://user-images.githubusercontent.com/40581033/236680835-b4c7f02d-a4da-4c5a-b1a7-a7a01e195e6f.png">
 
 For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
