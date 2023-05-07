@@ -31,8 +31,9 @@ For the neural network model, 30 neurons were selected for the first layer, foll
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
 With the first model I wasa able to get a 73% accuracy. However, I was not able to achieve the target model performance of 75% accuracy. 
 
-
 To increase the model performance, I tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
+<img width="557" alt="Screenshot 2023-05-07 at 9 37 50 AM" src="https://user-images.githubusercontent.com/40581033/236680867-87867207-4561-450d-8c36-a3f1409e2710.png">
+
 
 <img width="505" alt="Screenshot 2023-05-07 at 9 32 47 AM" src="https://user-images.githubusercontent.com/40581033/236680623-57b5541d-7dd4-4af7-a95a-a4e8c872b84a.png">
 
