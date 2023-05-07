@@ -58,8 +58,9 @@ I attempted 5 new models all resulting in lower accuracy rates. In so,me cases m
 
 <img width="495" alt="Screenshot 2023-05-07 at 9 33 00 AM" src="https://user-images.githubusercontent.com/40581033/236680638-effb6b1a-0289-4569-b27b-b8116c4e4a24.png">
 
+Finally I 
 
-## Conclusion
+## Summary and Conclusion
 By creating a predictive model that can identify organizations with the best chance of success, Alphabet Soup can improve their funding selection process and increase the overall impact of their contributions. The neural network model that was created achieved an accuracy score of around 73% on the testing data. While this accuracy score is not as high as our target model performance of 75%, it is still a decent accuracy score.
 
 
