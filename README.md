@@ -32,15 +32,15 @@ I will use a combination of exploratory data analysis, data cleaning, feature en
 
 The target variable for the model was 'IS_SUCCESSFUL'.
 The features for the model were all the remaining columns in the dataset after dropping 'EIN' and 'NAME'.
-The variables 'EIN' and 'NAME' were removed from the input data because they are neither targets nor features.
-In the 'INCOME AMT' column, 25% ofthe data is NaN.  This
+The variables 'EIN' and 'NAME' were removed from the input data because they are neither targets nor features. There was consideration to remove Income Amt because in the 'INCOME AMT' column, 25% ofthe data is NaN.  This could have an effect on the outcome of the data.
+
 ### Compiling, Training, and Evaluating the Model:
 
 #### Original Model
 
 <img width="538" alt="Screenshot 2023-05-07 at 9 37 08 AM" src="https://user-images.githubusercontent.com/40581033/236680835-b4c7f02d-a4da-4c5a-b1a7-a7a01e195e6f.png">
 
-For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
+For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification. The numbers were chosen to try to avoid overfitting.
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
 With the first model I wasa able to get a 73% accuracy. However, I was not able to achieve the target model performance of 75% accuracy. 
 
@@ -54,7 +54,7 @@ Loss: 0.5567113757133484, Accuracy: 0.724781334400177
 I continued to modify my model, but each time managed to get a lower accuract and higher loss.
 <img width="505" alt="Screenshot 2023-05-07 at 9 32 47 AM" src="https://user-images.githubusercontent.com/40581033/236680623-57b5541d-7dd4-4af7-a95a-a4e8c872b84a.png">
 
-I attempted 5 new models all resulting in lower accuracy rates. In so,me cases my training accuracy was high but validation accuracy was low, it probably meant that my model was overfitting to the training data and was not generalizing well to new data.
+I attempted 5 new models all resulting in lower accuracy rates. In so,me cases my training accuracy was high but validation accuracy was low, it probably meant that my model was overfitting to the training data and was not generalizing well to new data. I tried adding more neurons or layers can improve the performance of the model by increasing its capacity to learn complex representations from the input data.
 
 <img width="495" alt="Screenshot 2023-05-07 at 9 33 00 AM" src="https://user-images.githubusercontent.com/40581033/236680638-effb6b1a-0289-4569-b27b-b8116c4e4a24.png">
 
