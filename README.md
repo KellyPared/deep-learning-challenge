@@ -23,7 +23,7 @@ The variables 'EIN' and 'NAME' were removed from the input data because they are
 In the 'INCOME AMT' column, 25% ofthe data is NaN.  This
 ## Compiling, Training, and Evaluating the Model:
 
-For the neural network model, 80 neurons were selected for the first layer, followed by 30 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
+For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
 Unfortunately, we were not able to achieve the target model performance of 75% accuracy. The model achieved an accuracy score of around 73% on the testing data.
 To increase the model performance, we tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
