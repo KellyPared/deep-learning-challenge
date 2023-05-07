@@ -15,17 +15,42 @@ I will use a combination of exploratory data analysis, data cleaning, feature en
 
 ## Results:
 
-Data Preprocessing:
+### Data Preprocessing:
 
 The target variable for the model was 'IS_SUCCESSFUL'.
 The features for the model were all the remaining columns in the dataset after dropping 'EIN' and 'NAME'.
 The variables 'EIN' and 'NAME' were removed from the input data because they are neither targets nor features.
 In the 'INCOME AMT' column, 25% ofthe data is NaN.  This
-## Compiling, Training, and Evaluating the Model:
+### Compiling, Training, and Evaluating the Model:
+
+#### Original Model
+
+#hidden nodes for each layer pick a random number
+units_layer1 = 30
+units_layer2 = 20
+
+#the more layers - 
+# First hidden layer
+model.add(Dense(units=units_layer1, 
+                                activation='relu', 
+                                input_dim=number_input_features))
+
+# Second hidden layer
+model.add(Dense(units=units_layer2, 
+                                activation='relu', 
+                                input_dim=number_input_features))
+
+# Output layer
+model.add(Dense(units=1, activation='sigmoid'))
+
+# Check the structure of the model
+model.summary()
 
 For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
 With the first model I wasa able to get a 73% accuracy. However, I was not able to achieve the target model performance of 75% accuracy. 
+
+
 To increase the model performance, I tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
 
 <img width="505" alt="Screenshot 2023-05-07 at 9 32 47 AM" src="https://user-images.githubusercontent.com/40581033/236680623-57b5541d-7dd4-4af7-a95a-a4e8c872b84a.png">
