@@ -25,8 +25,10 @@ In the 'INCOME AMT' column, 25% ofthe data is NaN.  This
 
 For the neural network model, 30 neurons were selected for the first layer, followed by 20 neurons in the second layer, and a final output layer with 1 neuron since we are dealing with binary classification.
 The activation function used in the hidden layers was ReLU (Rectified Linear Unit), and for the output layer, we used Sigmoid.
-Unfortunately, we were not able to achieve the target model performance of 75% accuracy. The model achieved an accuracy score of around 73% on the testing data.
-To increase the model performance, we tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
+With the first model I wasa able to get a 73% accuracy. However, I was not able to achieve the target model performance of 75% accuracy. 
+To increase the model performance, I tried increasing the number of neurons and layers, changing the activation functions, and adjusting the learning rate.
+
+I attempted 5 new models all resulting in lower accuracy rates.
 
 ## Conclusion
 By creating a predictive model that can identify organizations with the best chance of success, Alphabet Soup can improve their funding selection process and increase the overall impact of their contributions. The neural network model that was created achieved an accuracy score of around 73% on the testing data. While this accuracy score is not as high as our target model performance of 75%, it is still a decent accuracy score.
