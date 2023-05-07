@@ -6,17 +6,17 @@ In this project, I will use machine learning and neural networks to create a cla
 
 ## Dataset
 The provided dataset contains metadata about over 34,000 organizations that have received funding from Alphabet Soup over the years. It includes identification columns such as EIN and NAME, and columns that capture information about the organization's application type, affiliated sector of industry, government organization classification, use case for funding, organization type, income classification, special considerations for application, funding amount requested, and active status.
-          EIN and NAME—Identification columns
-          APPLICATION_TYPE—Alphabet Soup application type
-          AFFILIATION—Affiliated sector of industry
-          CLASSIFICATION—Government organization classification
-          USE_CASE—Use case for funding
-          ORGANIZATION—Organization type
-          STATUS—Active status
-          INCOME_AMT—Income classification
-          SPECIAL_CONSIDERATIONS—Special considerations for application
-          ASK_AMT—Funding amount requested
-          IS_SUCCESSFUL—Was the money used effectively
+          * EIN and NAME—Identification columns
+          * APPLICATION_TYPE—Alphabet Soup application type
+          * AFFILIATION—Affiliated sector of industry
+          * CLASSIFICATION—Government organization classification
+          * USE_CASE—Use case for funding
+          * ORGANIZATION—Organization type
+          * STATUS—Active status
+          * INCOME_AMT—Income classification
+          * SPECIAL_CONSIDERATIONS—Special considerations for application
+          * ASK_AMT—Funding amount requested
+          * IS_SUCCESSFUL—Was the money used effectively
 
 <img width="283" alt="Screenshot 2023-05-07 at 9 53 19 AM" src="https://user-images.githubusercontent.com/40581033/236681717-fd8ffafe-2368-4a75-9873-d796f62391c1.png">
 
