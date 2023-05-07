@@ -7,6 +7,8 @@ In this project, I will use machine learning and neural networks to create a cla
 ## Dataset
 The provided dataset contains metadata about over 34,000 organizations that have received funding from Alphabet Soup over the years. It includes identification columns such as EIN and NAME, and columns that capture information about the organization's application type, affiliated sector of industry, government organization classification, use case for funding, organization type, income classification, special considerations for application, funding amount requested, and active status.
 
+<img width="283" alt="Screenshot 2023-05-07 at 9 53 19 AM" src="https://user-images.githubusercontent.com/40581033/236681717-fd8ffafe-2368-4a75-9873-d796f62391c1.png">
+
 ## Overview of the analysis:
 The purpose of this analysis was to create a deep learning model that can predict if an organization will be successful if they receive funding from Alphabet Soup.
 
